@@ -1,0 +1,70 @@
+h1, h2{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.title, .content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    border-bottom: 2px solid black;
+}
+
+.name, .slot, .employes{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+li{
+    list-style:none;
+}
+
+#meet-form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.meet-field{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+input, select{
+    width: 50%;
+}
+
+button, label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100px;
+}
