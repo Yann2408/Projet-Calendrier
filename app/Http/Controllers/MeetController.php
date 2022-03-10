@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use App\Models\Meet;
 use App\Models\Slot;
 use App\Models\Employe;
@@ -16,7 +17,7 @@ class MeetController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    {  
         $meets = Meet::all();
         $slots = Slot::all();
         $employes = Employe::all();
@@ -41,13 +42,17 @@ class MeetController extends Controller
      */
     public function store(Request $request)
     {
-        // dd($request);
+
+        $request->validate([
+            'name' => ['required', 'unique:meets'],
+            'employes' => ['required'],
+        ]);
 
         $slot = MeetService::findSlot($request->employes);
         if ($slot) {
             $meet = Meet::create([
                 'name' => $request->name,
-                'slot_id' => $slot->id       
+                'slot_id' => $slot->id   
             ]);
         }
         else{

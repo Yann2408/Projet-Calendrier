@@ -21,185 +21,185 @@ class DatabaseSeeder extends Seeder
         ->create();
 
         $slot1 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '9'
+            'day' => 'lundi',
+            'hour' => '09:00:00'
         ]);
 
         $slot2 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '10'
+            'day' => 'lundi',
+            'hour' => '10:00:00'
         ]);
 
         $slot3 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '11'
+            'day' => 'lundi',
+            'hour' => '11:00:00'
         ]);
 
         $slot4 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '13'
+            'day' => 'lundi',
+            'hour' => '13:00:00'
         ]);
 
         $slot5 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '14'
+            'day' => 'lundi',
+            'hour' => '14:00:00'
         ]);
 
         $slot6 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '15'
+            'day' => 'lundi',
+            'hour' => '15:00:00'
         ]);
 
         $slot7 = Slot::factory()->create([
-            'day' => 'Lundi',
-            'hour' => '16'
+            'day' => 'lundi',
+            'hour' => '16:00:00'
         ]);
 
         $slot8 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '9'
+            'day' => 'mardi',
+            'hour' => '09:00:00'
         ]);
 
         $slot9 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '10'
+            'day' => 'mardi',
+            'hour' => '10:00:00'
         ]);
 
         $slot10 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '11'
+            'day' => 'mardi',
+            'hour' => '11:00:00'
         ]);
 
         $slot11 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '13'
+            'day' => 'mardi',
+            'hour' => '13:00:00'
         ]);
 
-        $slot12 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '14'
+        $slot1mardi = Slot::factory()->create([
+            'day' => 'mardi',
+            'hour' => '14:00:00'
         ]);
 
         $slot13 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '15'
+            'day' => 'mardi',
+            'hour' => '15:00:00'
         ]);
 
         $slot14 = Slot::factory()->create([
-            'day' => 'Mardi',
-            'hour' => '16'
+            'day' => 'mardi',
+            'hour' => '16:00:00'
         ]);
 
         $slot15 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '9'
+            'day' => 'mercredi',
+            'hour' => '09:00:00'
         ]);
 
         $slot16 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '10'
+            'day' => 'mercredi',
+            'hour' => '10:00:00'
         ]);
 
         $slot17 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '11'
+            'day' => 'mercredi',
+            'hour' => '11:00:00'
         ]);
 
         $slot18 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '13'
+            'day' => 'mercredi',
+            'hour' => '13:00:00'
         ]);
 
         $slot19 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '14'
+            'day' => 'mercredi',
+            'hour' => '14:00:00'
         ]);
 
         $slot20 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '15'
+            'day' => 'mercredi',
+            'hour' => '15:00:00'
         ]);
 
         $slot21 = Slot::factory()->create([
-            'day' => 'Mercredi',
-            'hour' => '16'
+            'day' => 'mercredi',
+            'hour' => '16:00:00'
         ]);
 
         $slot22 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '9'
+            'day' => 'jeudi',
+            'hour' => '09:00:00'
         ]);
 
         $slot23 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '10'
+            'day' => 'jeudi',
+            'hour' => '10:00:00'
         ]);
 
         $slot24 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '11'
+            'day' => 'jeudi',
+            'hour' => '11:00:00'
         ]);
 
         $slot25 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '13'
+            'day' => 'jeudi',
+            'hour' => '13:00:00'
         ]);
 
         $slot26 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '14'
+            'day' => 'jeudi',
+            'hour' => '14:00:00'
         ]);
 
         $slot27 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '15'
+            'day' => 'jeudi',
+            'hour' => '15:00:00'
         ]);
 
         $slot28 = Slot::factory()->create([
-            'day' => 'Jeudi',
-            'hour' => '16'
+            'day' => 'jeudi',
+            'hour' => '16:00:00'
         ]);
 
         $slot29 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '9'
+            'hour' => '09:00:00'
         ]);
 
         $slot30 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '10'
+            'hour' => '10:00:00'
         ]);
 
         $slot31 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '11'
+            'hour' => '11:00:00'
         ]);
 
         $slot32 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '13'
+            'hour' => '13:00:00'
         ]);
 
         $slot33 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '14'
+            'hour' => '14:00:00'
         ]);
 
         $slot34 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '15'
+            'hour' => '15:00:00'
         ]);
 
         $slot35 = Slot::factory()->create([
             'day' => 'vendredi',
-            'hour' => '16'
+            'hour' => '16:00:00'
         ]);
 
         $slots = Slot::all();
 
         Employe::all()->each(function ($employe) use ($slots) {
             $employe->slots()->attach(
-                $slots->random(rand(1, 35))->pluck('id')->toArray()
+                $slots->random(rand(3, 6))->pluck('id')->toArray()
             );
         });
 

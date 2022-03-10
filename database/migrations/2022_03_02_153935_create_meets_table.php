@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('meets', function (Blueprint $table) {
             $table->id();
             $table->string('name')->unique();
-            $table->foreignId('slot_id')->constrained();
+            $table->integer('slot_id');
             $table->timestamps();
         });
     }

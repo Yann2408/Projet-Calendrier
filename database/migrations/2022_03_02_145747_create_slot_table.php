@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('slots', function (Blueprint $table) {
             $table->id();
             $table->string('day');
-            $table->integer('hour');
+            $table->time('hour')->format('H:i:s');
             $table->timestamps();
         });
     }

@@ -20,7 +20,7 @@
             @forelse ( $meets as $meet )
                 <div class="content">
                     <div class="name">{{ $meet->name}}</div>
-                    <div class="slot">{{ $meet->slot->day}} {{ $meet->slot->hour}}h</div>
+                    <div class="slot">{{ $meet->slot->day}} {{ $meet->slot->hour}}</div>
                     <div class="employes">                       
                         @foreach ( $meet->employes as $employe )
                         <ul>
@@ -55,6 +55,11 @@
             </div>
 
             <button type="submit">Créer</button>
+            @if ($errors->any())
+            @foreach ($errors->all() as $error)
+                <div> {{ $error }}</div>
+            @endforeach
+        @endif
 
         </form>
     </body>
