@@ -46,7 +46,6 @@ class MeetService
                 return false;
             }
 
-            // NOTE: cette boucle pourrait être séparée dans une méthode (ex: isEmployeeFreeAtSlot(Slot $slot, Employee $employee): bool)
             // si l'employe est déjà pris pour ce créneau, le créneau n'est pas valide
 
             $employeMeets = $employe->meets; // - on récupère les réunions de l'employé
